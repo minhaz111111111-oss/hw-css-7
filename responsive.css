@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  nav {
+    padding: 15px;
+  }
+  nav ul,
+  nav .btns {
+    display: none;
+  }
+  nav .hamburger-menu {
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  #hero{
+    padding: 30px 20px;
+  }
+  #hero h2{
+    font-size: 40px;
+  }
+  #hero .content {
+    width: 100%;
+  }
+  #hero .image {
+    width: 100%;
+  }
+  #hero .image img{
+    width: 100%;
+  }
+}
